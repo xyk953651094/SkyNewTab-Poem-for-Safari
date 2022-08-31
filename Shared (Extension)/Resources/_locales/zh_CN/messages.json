@@ -1,39 +1,39 @@
 {
   "extensionName":{
-    "message": "SkyNewTab Poem",
+    "message": "Sky诗词 新标签页",
     "description": "extension_name"
   },
   "extensionDescription":{
-    "message": "SkyNewTab Poem by XYK",
+    "message": "由待看云开创作的 Sky诗词 新标签页",
     "description": "extension_description"
   },
   "extensionDefaultTitle":{
-    "message": "SkyNewTab Poem",
+    "message": "Sky诗词 新标签页",
     "description": "extension_default_title"
   },
 
   "greetMorning":{
-    "message": "Morning",
+    "message": "朝霞满",
     "description": "greetMorning"
   },
   "greetNoon": {
-    "message": "Noon",
+    "message": "正当午",
     "description": "greetNoon"
   },
   "greetAfternoon":{
-    "message": "Afternoon",
+    "message": "斜阳下",
     "description": "greetAfternoon"
   },
   "greetEvening":{
-    "message": "Evening",
+    "message": "日暮里",
     "description": "greetEvening"
   },
   "greetNight":{
-    "message": "Night",
+    "message": "见星辰",
     "description": "greetNight"
   },
   "greetDawn":{
-    "message": "Before Dawn",
+    "message": "又一宿",
     "description": "greetDawn"
   }
 }
