@@ -1,7 +1,7 @@
 {
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
-    "version": "1.0",
+    "version": "1.0.0",
     "manifest_version": 2,
     "default_locale": "zh_CN",
     "permissions": [],
@@ -28,6 +28,6 @@
         "default_title": "__MSG_extensionDefaultTitle__"
     },
     "chrome_url_overrides" : {
-        "newtab": "htmls/skyNewTab.html"
+        "newtab": "html/mainPage.html"
     }
 }
