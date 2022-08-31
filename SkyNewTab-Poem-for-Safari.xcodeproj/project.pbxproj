@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA69B08B28BF98FE00B6889C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B08A28BF98FE00B6889C /* AppDelegate.swift */; };
+		AA69B08D28BF98FE00B6889C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B08C28BF98FE00B6889C /* SceneDelegate.swift */; };
+		AA69B09028BF98FE00B6889C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08E28BF98FE00B6889C /* LaunchScreen.storyboard */; };
+		AA69B09328BF98FE00B6889C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69B09128BF98FE00B6889C /* Main.storyboard */; };
+		AA69B09C28BF98FE00B6889C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B09B28BF98FE00B6889C /* AppDelegate.swift */; };
+		AA69B09F28BF98FE00B6889C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69B09D28BF98FE00B6889C /* Main.storyboard */; };
+		AA69B0A628BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA69B0A528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA69B0B028BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA69B0AF28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA69B0B628BF98FE00B6889C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07128BF98FB00B6889C /* Main.html */; };
+		AA69B0B728BF98FE00B6889C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07128BF98FB00B6889C /* Main.html */; };
+		AA69B0B828BF98FE00B6889C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07328BF98FB00B6889C /* Icon.png */; };
+		AA69B0B928BF98FE00B6889C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07328BF98FB00B6889C /* Icon.png */; };
+		AA69B0BA28BF98FE00B6889C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07428BF98FB00B6889C /* Style.css */; };
+		AA69B0BB28BF98FE00B6889C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07428BF98FB00B6889C /* Style.css */; };
+		AA69B0BC28BF98FE00B6889C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07528BF98FB00B6889C /* Script.js */; };
+		AA69B0BD28BF98FE00B6889C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07528BF98FB00B6889C /* Script.js */; };
+		AA69B0BE28BF98FE00B6889C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07628BF98FB00B6889C /* ViewController.swift */; };
+		AA69B0BF28BF98FE00B6889C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07628BF98FB00B6889C /* ViewController.swift */; };
+		AA69B0C028BF98FE00B6889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07728BF98FD00B6889C /* Assets.xcassets */; };
+		AA69B0C128BF98FE00B6889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07728BF98FD00B6889C /* Assets.xcassets */; };
+		AA69B0C228BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */; };
+		AA69B0C328BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */; };
+		AA69B0C428BF98FE00B6889C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07B28BF98FD00B6889C /* _locales */; };
+		AA69B0C528BF98FE00B6889C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07B28BF98FD00B6889C /* _locales */; };
+		AA69B0C628BF98FE00B6889C /* images in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07C28BF98FD00B6889C /* images */; };
+		AA69B0C728BF98FE00B6889C /* images in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07C28BF98FD00B6889C /* images */; };
+		AA69B0C828BF98FE00B6889C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07D28BF98FD00B6889C /* manifest.json */; };
+		AA69B0C928BF98FE00B6889C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07D28BF98FD00B6889C /* manifest.json */; };
+		AA69B0CA28BF98FE00B6889C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07E28BF98FE00B6889C /* background.js */; };
+		AA69B0CB28BF98FE00B6889C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07E28BF98FE00B6889C /* background.js */; };
+		AA69B0CC28BF98FE00B6889C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07F28BF98FE00B6889C /* content.js */; };
+		AA69B0CD28BF98FE00B6889C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07F28BF98FE00B6889C /* content.js */; };
+		AA69B0CE28BF98FE00B6889C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08028BF98FE00B6889C /* popup.html */; };
+		AA69B0CF28BF98FE00B6889C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08028BF98FE00B6889C /* popup.html */; };
+		AA69B0D028BF98FE00B6889C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08128BF98FE00B6889C /* popup.css */; };
+		AA69B0D128BF98FE00B6889C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08128BF98FE00B6889C /* popup.css */; };
+		AA69B0D228BF98FE00B6889C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08228BF98FE00B6889C /* popup.js */; };
+		AA69B0D328BF98FE00B6889C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08228BF98FE00B6889C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA69B0A728BF98FE00B6889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA69B06B28BF98FB00B6889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA69B0A428BF98FE00B6889C;
+			remoteInfo = "SkyNewTab-Poem-for-Safari Extension (iOS)";
+		};
+		AA69B0B128BF98FE00B6889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA69B06B28BF98FB00B6889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA69B0AE28BF98FE00B6889C;
+			remoteInfo = "SkyNewTab-Poem-for-Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA69B0D928BF98FE00B6889C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA69B0A628BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0E028BF98FE00B6889C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA69B0B028BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA69B07228BF98FB00B6889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		AA69B07328BF98FB00B6889C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AA69B07428BF98FB00B6889C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		AA69B07528BF98FB00B6889C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		AA69B07628BF98FB00B6889C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA69B07728BF98FD00B6889C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AA69B07B28BF98FD00B6889C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		AA69B07C28BF98FD00B6889C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		AA69B07D28BF98FD00B6889C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		AA69B07E28BF98FE00B6889C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		AA69B07F28BF98FE00B6889C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		AA69B08028BF98FE00B6889C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		AA69B08128BF98FE00B6889C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		AA69B08228BF98FE00B6889C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		AA69B08728BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkyNewTab-Poem-for-Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69B08A28BF98FE00B6889C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA69B08C28BF98FE00B6889C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA69B08F28BF98FE00B6889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA69B09228BF98FE00B6889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA69B09428BF98FE00B6889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69B09928BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkyNewTab-Poem-for-Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69B09B28BF98FE00B6889C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA69B09E28BF98FE00B6889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA69B0A028BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SkyNewTab-Poem-for-Safari.entitlements"; sourceTree = "<group>"; };
+		AA69B0A528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkyNewTab-Poem-for-Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69B0AA28BF98FE00B6889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69B0AF28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkyNewTab-Poem-for-Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69B0B428BF98FE00B6889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69B0B528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SkyNewTab-Poem-for-Safari.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA69B08428BF98FE00B6889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B09628BF98FE00B6889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0A228BF98FE00B6889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0AC28BF98FE00B6889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA69B06A28BF98FB00B6889C = {
+			isa = PBXGroup;
+			children = (
+				AA69B06F28BF98FB00B6889C /* Shared (App) */,
+				AA69B07828BF98FD00B6889C /* Shared (Extension) */,
+				AA69B08928BF98FE00B6889C /* iOS (App) */,
+				AA69B09A28BF98FE00B6889C /* macOS (App) */,
+				AA69B0A928BF98FE00B6889C /* iOS (Extension) */,
+				AA69B0B328BF98FE00B6889C /* macOS (Extension) */,
+				AA69B08828BF98FE00B6889C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA69B06F28BF98FB00B6889C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B07628BF98FB00B6889C /* ViewController.swift */,
+				AA69B07728BF98FD00B6889C /* Assets.xcassets */,
+				AA69B07028BF98FB00B6889C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		AA69B07028BF98FB00B6889C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B07128BF98FB00B6889C /* Main.html */,
+				AA69B07328BF98FB00B6889C /* Icon.png */,
+				AA69B07428BF98FB00B6889C /* Style.css */,
+				AA69B07528BF98FB00B6889C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA69B07828BF98FD00B6889C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */,
+				AA69B07A28BF98FD00B6889C /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		AA69B07A28BF98FD00B6889C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B07B28BF98FD00B6889C /* _locales */,
+				AA69B07C28BF98FD00B6889C /* images */,
+				AA69B07D28BF98FD00B6889C /* manifest.json */,
+				AA69B07E28BF98FE00B6889C /* background.js */,
+				AA69B07F28BF98FE00B6889C /* content.js */,
+				AA69B08028BF98FE00B6889C /* popup.html */,
+				AA69B08128BF98FE00B6889C /* popup.css */,
+				AA69B08228BF98FE00B6889C /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA69B08828BF98FE00B6889C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B08728BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */,
+				AA69B09928BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */,
+				AA69B0A528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */,
+				AA69B0AF28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA69B08928BF98FE00B6889C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B08A28BF98FE00B6889C /* AppDelegate.swift */,
+				AA69B08C28BF98FE00B6889C /* SceneDelegate.swift */,
+				AA69B08E28BF98FE00B6889C /* LaunchScreen.storyboard */,
+				AA69B09128BF98FE00B6889C /* Main.storyboard */,
+				AA69B09428BF98FE00B6889C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		AA69B09A28BF98FE00B6889C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B09B28BF98FE00B6889C /* AppDelegate.swift */,
+				AA69B09D28BF98FE00B6889C /* Main.storyboard */,
+				AA69B0A028BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		AA69B0A928BF98FE00B6889C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B0AA28BF98FE00B6889C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		AA69B0B328BF98FE00B6889C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				AA69B0B428BF98FE00B6889C /* Info.plist */,
+				AA69B0B528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA69B08628BF98FE00B6889C /* SkyNewTab-Poem-for-Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA69B0DA28BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari (iOS)" */;
+			buildPhases = (
+				AA69B08328BF98FE00B6889C /* Sources */,
+				AA69B08428BF98FE00B6889C /* Frameworks */,
+				AA69B08528BF98FE00B6889C /* Resources */,
+				AA69B0D928BF98FE00B6889C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA69B0A828BF98FE00B6889C /* PBXTargetDependency */,
+			);
+			name = "SkyNewTab-Poem-for-Safari (iOS)";
+			productName = "SkyNewTab-Poem-for-Safari (iOS)";
+			productReference = AA69B08728BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA69B09828BF98FE00B6889C /* SkyNewTab-Poem-for-Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA69B0E128BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari (macOS)" */;
+			buildPhases = (
+				AA69B09528BF98FE00B6889C /* Sources */,
+				AA69B09628BF98FE00B6889C /* Frameworks */,
+				AA69B09728BF98FE00B6889C /* Resources */,
+				AA69B0E028BF98FE00B6889C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA69B0B228BF98FE00B6889C /* PBXTargetDependency */,
+			);
+			name = "SkyNewTab-Poem-for-Safari (macOS)";
+			productName = "SkyNewTab-Poem-for-Safari (macOS)";
+			productReference = AA69B09928BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA69B0A428BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA69B0D628BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari Extension (iOS)" */;
+			buildPhases = (
+				AA69B0A128BF98FE00B6889C /* Sources */,
+				AA69B0A228BF98FE00B6889C /* Frameworks */,
+				AA69B0A328BF98FE00B6889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkyNewTab-Poem-for-Safari Extension (iOS)";
+			productName = "SkyNewTab-Poem-for-Safari Extension (iOS)";
+			productReference = AA69B0A528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA69B0AE28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA69B0DD28BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari Extension (macOS)" */;
+			buildPhases = (
+				AA69B0AB28BF98FE00B6889C /* Sources */,
+				AA69B0AC28BF98FE00B6889C /* Frameworks */,
+				AA69B0AD28BF98FE00B6889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkyNewTab-Poem-for-Safari Extension (macOS)";
+			productName = "SkyNewTab-Poem-for-Safari Extension (macOS)";
+			productReference = AA69B0AF28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA69B06B28BF98FB00B6889C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AA69B08628BF98FE00B6889C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA69B09828BF98FE00B6889C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA69B0A428BF98FE00B6889C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AA69B0AE28BF98FE00B6889C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AA69B06E28BF98FB00B6889C /* Build configuration list for PBXProject "SkyNewTab-Poem-for-Safari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA69B06A28BF98FB00B6889C;
+			productRefGroup = AA69B08828BF98FE00B6889C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA69B08628BF98FE00B6889C /* SkyNewTab-Poem-for-Safari (iOS) */,
+				AA69B09828BF98FE00B6889C /* SkyNewTab-Poem-for-Safari (macOS) */,
+				AA69B0A428BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (iOS) */,
+				AA69B0AE28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA69B08528BF98FE00B6889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0B828BF98FE00B6889C /* Icon.png in Resources */,
+				AA69B09028BF98FE00B6889C /* LaunchScreen.storyboard in Resources */,
+				AA69B0B628BF98FE00B6889C /* Main.html in Resources */,
+				AA69B0BC28BF98FE00B6889C /* Script.js in Resources */,
+				AA69B0C028BF98FE00B6889C /* Assets.xcassets in Resources */,
+				AA69B09328BF98FE00B6889C /* Main.storyboard in Resources */,
+				AA69B0BA28BF98FE00B6889C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B09728BF98FE00B6889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0B928BF98FE00B6889C /* Icon.png in Resources */,
+				AA69B0BB28BF98FE00B6889C /* Style.css in Resources */,
+				AA69B09F28BF98FE00B6889C /* Main.storyboard in Resources */,
+				AA69B0BD28BF98FE00B6889C /* Script.js in Resources */,
+				AA69B0C128BF98FE00B6889C /* Assets.xcassets in Resources */,
+				AA69B0B728BF98FE00B6889C /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0A328BF98FE00B6889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0CA28BF98FE00B6889C /* background.js in Resources */,
+				AA69B0D028BF98FE00B6889C /* popup.css in Resources */,
+				AA69B0CE28BF98FE00B6889C /* popup.html in Resources */,
+				AA69B0C628BF98FE00B6889C /* images in Resources */,
+				AA69B0C828BF98FE00B6889C /* manifest.json in Resources */,
+				AA69B0C428BF98FE00B6889C /* _locales in Resources */,
+				AA69B0CC28BF98FE00B6889C /* content.js in Resources */,
+				AA69B0D228BF98FE00B6889C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0AD28BF98FE00B6889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0CB28BF98FE00B6889C /* background.js in Resources */,
+				AA69B0D128BF98FE00B6889C /* popup.css in Resources */,
+				AA69B0CF28BF98FE00B6889C /* popup.html in Resources */,
+				AA69B0C728BF98FE00B6889C /* images in Resources */,
+				AA69B0C928BF98FE00B6889C /* manifest.json in Resources */,
+				AA69B0C528BF98FE00B6889C /* _locales in Resources */,
+				AA69B0CD28BF98FE00B6889C /* content.js in Resources */,
+				AA69B0D328BF98FE00B6889C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA69B08328BF98FE00B6889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0BE28BF98FE00B6889C /* ViewController.swift in Sources */,
+				AA69B08B28BF98FE00B6889C /* AppDelegate.swift in Sources */,
+				AA69B08D28BF98FE00B6889C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B09528BF98FE00B6889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0BF28BF98FE00B6889C /* ViewController.swift in Sources */,
+				AA69B09C28BF98FE00B6889C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0A128BF98FE00B6889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0C228BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA69B0AB28BF98FE00B6889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69B0C328BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA69B0A828BF98FE00B6889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA69B0A428BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (iOS) */;
+			targetProxy = AA69B0A728BF98FE00B6889C /* PBXContainerItemProxy */;
+		};
+		AA69B0B228BF98FE00B6889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA69B0AE28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension (macOS) */;
+			targetProxy = AA69B0B128BF98FE00B6889C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA69B07128BF98FB00B6889C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69B07228BF98FB00B6889C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		AA69B08E28BF98FE00B6889C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69B08F28BF98FE00B6889C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA69B09128BF98FE00B6889C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69B09228BF98FE00B6889C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA69B09D28BF98FE00B6889C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69B09E28BF98FE00B6889C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA69B0D428BF98FE00B6889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA69B0D528BF98FE00B6889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA69B0D728BF98FE00B6889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari.Extension";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA69B0D828BF98FE00B6889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari.Extension";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA69B0DB28BF98FE00B6889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA69B0DC28BF98FE00B6889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA69B0DE28BF98FE00B6889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SkyNewTab-Poem-for-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari.Extension";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA69B0DF28BF98FE00B6889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SkyNewTab-Poem-for-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari.Extension";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA69B0E228BF98FE00B6889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SkyNewTab-Poem-for-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA69B0E328BF98FE00B6889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SkyNewTab-Poem-for-Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95828MS2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SkyNewTab-Poem-for-Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XYK.SkyNewTab-Poem-for-Safari";
+				PRODUCT_NAME = "SkyNewTab-Poem-for-Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA69B06E28BF98FB00B6889C /* Build configuration list for PBXProject "SkyNewTab-Poem-for-Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69B0D428BF98FE00B6889C /* Debug */,
+				AA69B0D528BF98FE00B6889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA69B0D628BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69B0D728BF98FE00B6889C /* Debug */,
+				AA69B0D828BF98FE00B6889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA69B0DA28BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69B0DB28BF98FE00B6889C /* Debug */,
+				AA69B0DC28BF98FE00B6889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA69B0DD28BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69B0DE28BF98FE00B6889C /* Debug */,
+				AA69B0DF28BF98FE00B6889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA69B0E128BF98FE00B6889C /* Build configuration list for PBXNativeTarget "SkyNewTab-Poem-for-Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69B0E228BF98FE00B6889C /* Debug */,
+				AA69B0E328BF98FE00B6889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA69B06B28BF98FB00B6889C /* Project object */;
+}
