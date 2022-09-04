@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA45E61228C0CC920050479F /* js in Resources */ = {isa = PBXBuildFile; fileRef = AA45E60F28C0CC920050479F /* js */; };
+		AA45E61328C0CC920050479F /* js in Resources */ = {isa = PBXBuildFile; fileRef = AA45E60F28C0CC920050479F /* js */; };
+		AA45E61428C0CC920050479F /* css in Resources */ = {isa = PBXBuildFile; fileRef = AA45E61028C0CC920050479F /* css */; };
+		AA45E61528C0CC920050479F /* css in Resources */ = {isa = PBXBuildFile; fileRef = AA45E61028C0CC920050479F /* css */; };
+		AA45E61628C0CC920050479F /* html in Resources */ = {isa = PBXBuildFile; fileRef = AA45E61128C0CC920050479F /* html */; };
+		AA45E61728C0CC920050479F /* html in Resources */ = {isa = PBXBuildFile; fileRef = AA45E61128C0CC920050479F /* html */; };
 		AA69B08B28BF98FE00B6889C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B08A28BF98FE00B6889C /* AppDelegate.swift */; };
 		AA69B08D28BF98FE00B6889C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B08C28BF98FE00B6889C /* SceneDelegate.swift */; };
 		AA69B09028BF98FE00B6889C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69B08E28BF98FE00B6889C /* LaunchScreen.storyboard */; };
@@ -29,10 +35,6 @@
 		AA69B0C128BF98FE00B6889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B07728BF98FD00B6889C /* Assets.xcassets */; };
 		AA69B0C228BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */; };
 		AA69B0C328BF98FE00B6889C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69B07928BF98FD00B6889C /* SafariWebExtensionHandler.swift */; };
-		AA69B0EE28BF998900B6889C /* htmls in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E428BF998800B6889C /* htmls */; };
-		AA69B0EF28BF998900B6889C /* htmls in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E428BF998800B6889C /* htmls */; };
-		AA69B0F028BF998900B6889C /* stylesheets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E528BF998800B6889C /* stylesheets */; };
-		AA69B0F128BF998900B6889C /* stylesheets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E528BF998800B6889C /* stylesheets */; };
 		AA69B0F228BF998900B6889C /* layui-v2.7.6 in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E628BF998800B6889C /* layui-v2.7.6 */; };
 		AA69B0F328BF998900B6889C /* layui-v2.7.6 in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E628BF998800B6889C /* layui-v2.7.6 */; };
 		AA69B0F428BF998900B6889C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E728BF998800B6889C /* _locales */; };
@@ -41,8 +43,6 @@
 		AA69B0F728BF998900B6889C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E828BF998800B6889C /* manifest.json */; };
 		AA69B0F828BF998900B6889C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E928BF998800B6889C /* README.md */; };
 		AA69B0F928BF998900B6889C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0E928BF998800B6889C /* README.md */; };
-		AA69B0FA28BF998900B6889C /* javascripts in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0EA28BF998800B6889C /* javascripts */; };
-		AA69B0FB28BF998900B6889C /* javascripts in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0EA28BF998800B6889C /* javascripts */; };
 		AA69B0FC28BF998900B6889C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0EB28BF998900B6889C /* assets */; };
 		AA69B0FD28BF998900B6889C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0EB28BF998900B6889C /* assets */; };
 		AA69B0FE28BF998900B6889C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AA69B0EC28BF998900B6889C /* background.js */; };
@@ -94,6 +94,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA45E60F28C0CC920050479F /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		AA45E61028C0CC920050479F /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		AA45E61128C0CC920050479F /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		AA69B07228BF98FB00B6889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		AA69B07328BF98FB00B6889C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		AA69B07428BF98FB00B6889C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -116,13 +119,10 @@
 		AA69B0AF28BF98FE00B6889C /* SkyNewTab-Poem-for-Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkyNewTab-Poem-for-Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA69B0B428BF98FE00B6889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA69B0B528BF98FE00B6889C /* SkyNewTab-Poem-for-Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SkyNewTab-Poem-for-Safari.entitlements"; sourceTree = "<group>"; };
-		AA69B0E428BF998800B6889C /* htmls */ = {isa = PBXFileReference; lastKnownFileType = folder; path = htmls; sourceTree = "<group>"; };
-		AA69B0E528BF998800B6889C /* stylesheets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stylesheets; sourceTree = "<group>"; };
 		AA69B0E628BF998800B6889C /* layui-v2.7.6 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "layui-v2.7.6"; sourceTree = "<group>"; };
 		AA69B0E728BF998800B6889C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		AA69B0E828BF998800B6889C /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		AA69B0E928BF998800B6889C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AA69B0EA28BF998800B6889C /* javascripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = javascripts; sourceTree = "<group>"; };
 		AA69B0EB28BF998900B6889C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		AA69B0EC28BF998900B6889C /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		AA69B0ED28BF998900B6889C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -206,16 +206,16 @@
 		AA69B07A28BF98FD00B6889C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA45E61028C0CC920050479F /* css */,
+				AA45E61128C0CC920050479F /* html */,
+				AA45E60F28C0CC920050479F /* js */,
 				AA69B0E728BF998800B6889C /* _locales */,
 				AA69B0EB28BF998900B6889C /* assets */,
 				AA69B0EC28BF998900B6889C /* background.js */,
-				AA69B0E428BF998800B6889C /* htmls */,
-				AA69B0EA28BF998800B6889C /* javascripts */,
 				AA69B0E628BF998800B6889C /* layui-v2.7.6 */,
 				AA69B0ED28BF998900B6889C /* LICENSE */,
 				AA69B0E828BF998800B6889C /* manifest.json */,
 				AA69B0E928BF998800B6889C /* README.md */,
-				AA69B0E528BF998800B6889C /* stylesheets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -422,16 +422,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA45E61428C0CC920050479F /* css in Resources */,
 				AA69B0F828BF998900B6889C /* README.md in Resources */,
 				AA69B0FC28BF998900B6889C /* assets in Resources */,
-				AA69B0F028BF998900B6889C /* stylesheets in Resources */,
-				AA69B0FA28BF998900B6889C /* javascripts in Resources */,
 				AA69B10028BF998900B6889C /* LICENSE in Resources */,
+				AA45E61228C0CC920050479F /* js in Resources */,
 				AA69B0FE28BF998900B6889C /* background.js in Resources */,
 				AA69B0F228BF998900B6889C /* layui-v2.7.6 in Resources */,
 				AA69B0F628BF998900B6889C /* manifest.json in Resources */,
 				AA69B0F428BF998900B6889C /* _locales in Resources */,
-				AA69B0EE28BF998900B6889C /* htmls in Resources */,
+				AA45E61628C0CC920050479F /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,16 +439,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA45E61528C0CC920050479F /* css in Resources */,
 				AA69B0F928BF998900B6889C /* README.md in Resources */,
 				AA69B0FD28BF998900B6889C /* assets in Resources */,
-				AA69B0F128BF998900B6889C /* stylesheets in Resources */,
-				AA69B0FB28BF998900B6889C /* javascripts in Resources */,
 				AA69B10128BF998900B6889C /* LICENSE in Resources */,
+				AA45E61328C0CC920050479F /* js in Resources */,
 				AA69B0FF28BF998900B6889C /* background.js in Resources */,
 				AA69B0F328BF998900B6889C /* layui-v2.7.6 in Resources */,
 				AA69B0F728BF998900B6889C /* manifest.json in Resources */,
 				AA69B0F528BF998900B6889C /* _locales in Resources */,
-				AA69B0EF28BF998900B6889C /* htmls in Resources */,
+				AA45E61728C0CC920050479F /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
