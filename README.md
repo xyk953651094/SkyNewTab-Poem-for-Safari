@@ -18,3 +18,18 @@
 * App Store（敬请期待）
 
 ## 效果展示
+### iOS
+![IMG_3B1C59551812-1](https://user-images.githubusercontent.com/28004442/189130948-15aadbf4-e182-4447-ab9a-4b37cf720905.jpeg)
+
+![IMG_067D79C222F4-1](https://user-images.githubusercontent.com/28004442/189131128-5537e863-e8b8-4144-9d30-90e6828d0ee5.jpeg)
+
+### iPadOS
+![IMG_3BD25D3D7DB2-1](https://user-images.githubusercontent.com/28004442/189132063-04c92f59-356e-4664-86a8-906ad7b86968.jpeg)
+
+![IMG_D303B1F18758-1](https://user-images.githubusercontent.com/28004442/189132095-47dbafbc-87a1-48cb-8034-33c73f43cecf.jpeg)
+
+### macOS
+<img width="1440" alt="截屏2022-09-08 21 20 48" src="https://user-images.githubusercontent.com/28004442/189132708-f8e78496-4271-4420-afaf-b180c433f104.png">
+
+<img width="1440" alt="截屏2022-09-08 21 21 04" src="https://user-images.githubusercontent.com/28004442/189132764-54828f5c-2efe-4706-a4b9-29d535db8107.png">
+
